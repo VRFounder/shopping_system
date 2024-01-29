@@ -21,11 +21,11 @@ public class Order {
         this.orderDate = LocalDateTime.now().format(myFormatObj);
     }
 
-//    void confirmOrder(List<Product> productList) {
-//        for (: productList) {
-//
-//        }
-//    }
+    void confirmOrder(List<Product> productList) {
+        for (Product product: productList) {
+            System.out.println(product);
+        }
+    }
 
 
     @Override
